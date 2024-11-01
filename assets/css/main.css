@@ -4767,23 +4767,16 @@ input, select, textarea {
   }
   
   .logo:hover {
-	background: rgba(255, 255, 255, 0.1);
+	/* background: rgba(255, 255, 255, 0.1); */
 	transform: translateY(-2px);
   }
   
   /* Intro Section */
   #intro {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	background: var(--gradient-primary);
-	color: white;
-	padding: 2rem;
-	animation: fadeIn 1s ease-out;
-  }
+    text-align: center;
+    padding: 3rem 1rem;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
   
   #intro h1 {
 	font-size: 3.5rem;
@@ -4791,8 +4784,64 @@ input, select, textarea {
 	font-weight: 800;
 	letter-spacing: -1px;
   }
+
+  .glitch {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.typing-text {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.intro-description {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.tech-stack {
+    margin-top: 2rem;
+}
+
+.tech-stack h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.tech-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.tech-item i {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.tech-item span {
+    margin-top: 0.3rem;
+    font-weight: 500;
+}
+
+.scroll-indicator {
+    margin-top: 2rem;
+}
+
   
-  .skill-list {
+.skill-list {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1rem;
@@ -4800,7 +4849,7 @@ input, select, textarea {
 	margin: 2rem 0;
   }
   
-  .skill-list li {
+.skill-list li {
 	background: rgba(255, 255, 255, 0.1);
 	padding: 0.5rem 1rem;
 	border-radius: 20px;
@@ -4808,10 +4857,17 @@ input, select, textarea {
 	transition: var(--transition-speed);
   }
   
-  .skill-list li:hover {
+.skill-list li:hover {
 	transform: translateY(-2px);
 	background: rgba(255, 255, 255, 0.2);
   }
+
+.project-description {
+    font-size: 1.1rem;
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
   
   /* Project Cards */
   .posts {
@@ -4854,12 +4910,10 @@ input, select, textarea {
   /* Buttons */
   .button {
 	display: inline-block;
-	padding: 0.75rem 1.5rem;
 	background: var(--secondary-color);
 	color: white;
 	text-decoration: none;
 	border-radius: 25px;
-	font-weight: 500;
 	transition: var(--transition-speed);
   }
   
