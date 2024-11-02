@@ -3297,6 +3297,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
+		/* padding: 3rem 1rem; */
 		padding: 8rem 4rem 6rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3323,10 +3324,15 @@ input, select, textarea {
 		text-align: center;
 		z-index: 1;
 		min-height: 100vh;
+		font-family: 'Helvetica Neue', Arial, sans-serif;
+		font-size: 4.5rem;
+		text-align: center;
 	}
 
 		#intro input, #intro select, #intro textarea {
 			color: #ffffff;
+			text-align: center;
+			font-family: 'Helvetica Neue', Arial, sans-serif;
 		}
 
 		#intro a {
@@ -3345,6 +3351,10 @@ input, select, textarea {
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
 			color: #ffffff;
+			font-size: 3.5rem;
+			margin-bottom: 1rem;
+			font-weight: 800;
+			letter-spacing: -1px;
 		}
 
 		#intro blockquote {
@@ -4772,23 +4782,23 @@ input, select, textarea {
   }
   
   /* Intro Section */
-  #intro {
+/* #intro {
     text-align: center;
     padding: 3rem 1rem;
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
   
-  #intro h1 {
+#intro h1 {
 	font-size: 3.5rem;
 	margin-bottom: 1rem;
 	font-weight: 800;
 	letter-spacing: -1px;
-  }
+  } */
 
-  .glitch {
+/* .glitch {
     font-size: 3rem;
     font-weight: bold;
-}
+} */
 
 .typing-text {
     font-size: 1.5rem;
@@ -4803,7 +4813,7 @@ input, select, textarea {
     line-height: 1.6;
 }
 
-.tech-stack {
+/* .tech-stack {
     margin-top: 2rem;
 }
 
@@ -4834,13 +4844,12 @@ input, select, textarea {
 .tech-item span {
     margin-top: 0.3rem;
     font-weight: 500;
-}
+} */
 
 .scroll-indicator {
     margin-top: 2rem;
 }
 
-  
 .skill-list {
 	display: flex;
 	flex-wrap: wrap;
