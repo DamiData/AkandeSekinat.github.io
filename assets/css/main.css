@@ -4872,10 +4872,11 @@ input, select, textarea {
   }
 
 .project-description {
-    font-size: 1.1rem;
-	font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     margin-bottom: 1.5rem;
     line-height: 1.6;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	font-size: 1.1rem;
 }
   
   /* Project Cards */
@@ -4954,5 +4955,42 @@ input, select, textarea {
     background: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+
+/* Dropdown styling */
+nav .dropdown {
+    position: relative;
+}
+
+nav .dropdown .submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #fff;
+    list-style: none;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav .dropdown:hover .submenu {
+    display: block;
+}
+
+nav .dropdown .submenu li {
+    margin: 5px 0;
+}
+
+nav .dropdown .submenu li a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px 10px;
+    display: block;
+}
+
+nav .dropdown .submenu li a:hover {
+    background: #f4f4f4;
+}
+
   
   
